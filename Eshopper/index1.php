@@ -237,65 +237,87 @@ $precioB =$BDProductos [$n+2];
                         </div>
                         <?php $n+=4; } ?>
                     </div><!--features_items-->
-                    
-                    
-                    
                     <div class="recommended_items"><!--recommended_items-->
-                        <h2 class="title text-center" style="font-size: 35px;"><br>Productos Recomendados <br></h2>
+                       
+    <h2 class="title text-center" style="font-size: 35px;"><br>Productos Recomendados <br></h2>
 
-                        
-                        <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="item active">
-
-                               <div class="col-sm-4">
-                                 <div class="product-image-wrapper">
-                                            <div class="single-products">
-                                                <div class="productinfo text-center">
-                                                    <img src="images/home/recommend1.jpg" alt="" />
-                                                    <h2>$450</h2>
-                                                    <p>Blusa Minecraft</p>
-                                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Agregar al Carrito</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="product-image-wrapper">
-                                            <div class="single-products">
-                                                <div class="productinfo text-center">
-                                                    <img src="images/home/recommend2.jpg" alt="" />
-                                                    <h2>$7850</h2>
-                                                    <p>Lentes Rayban x meta</p>
-                                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Agregar al Carrito</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="product-image-wrapper">
-                                            <div class="single-products">
-                                                <div class="productinfo text-center">
-                                                    <img src="images/home/recommend3.jpg" alt="" />
-                                                    <h2>$2450</h2>
-                                                    <p>Vestido de hermione Granger ♥♥♥</p>
-                                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Agregar al Carrito</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="col-sm-4">
+                    <div class="product-image-wrapper">
+                        <div class="single-products">
+                            <div class="productinfo text-center">
+                                <img src="images/home/recommend1.jpg" alt="" />
+                                <h2>$450</h2>
+                                <p>Blusa Minecraft</p>
+                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Agregar al Carrito</a>
                             </div>
-                                
-                          
-                             <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
-                                <i class="fa fa-angle-left"></i>
-                              </a>
-                              <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
-                                <i class="fa fa-angle-right"></i>
-                              </a>          
                         </div>
-                    </div><!--/recommended_items-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="product-image-wrapper">
+                        <div class="single-products">
+                            <div class="productinfo text-center">
+                                <img src="images/home/recommend2.jpg" alt="" />
+                                <h2>$7850</h2>
+                                <p>Lentes Rayban x meta</p>
+                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Agregar al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="product-image-wrapper">
+                        <div class="single-products">
+                            <div class="productinfo text-center">
+                                <img src="images/home/recommend3.jpg" alt="" />
+                                <h2>$2450</h2>
+                                <p>Vestido de Hermione Granger ♥♥♥</p>
+                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Agregar al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-sm-4">
+                    <div class="product-image-wrapper">
+                        <div class="single-products">
+                            <div class="productinfo text-center">
+                                <img src="images/home/recommend4.jpg" alt="" />
+                                <h2>$999</h2>
+                                <p>PANAM x Esen Alva</p>
+                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Agregar al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="product-image-wrapper">
+                        <div class="single-products">
+                            <div class="productinfo text-center">
+                                <img src="images/home/recommend5.jpg" alt="" />
+                                <h2>$12599</h2>
+                                <p>Meta Quest 3</p>
+                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i> Agregar al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </div>
+</div><!--/recommended_items-->
+
                     
                 </div>
             </div>
@@ -345,3 +367,8 @@ $precioB =$BDProductos [$n+2];
     <script src="js/main.js"></script>
 </body>
 </html>
+
+
+
+
+
